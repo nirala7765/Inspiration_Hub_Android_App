@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/inpirelogo"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Language"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bgbox"
+
+
+
+
+
+                />
+            <TextView
+                android:id="@+id/txtHindi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="हिन्दी "
+                android:gravity="center"
+                android:textSize="30dp"
+                android:padding="10dp"
+
+                android:textColor="@color/white"
+                android:background="@drawable/border"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+
+                />
+            <TextView
+                android:id="@+id/txtEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:gravity="center"
+                android:textSize="30dp"
+
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/border"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="30dp"
+
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        android:backgroundTint="@color/white"
+
+
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAdv1"
+            android:text="Adv Will Shown Here!"
+            android:textSize="20dp"
+
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

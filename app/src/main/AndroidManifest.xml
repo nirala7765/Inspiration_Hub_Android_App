@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/inpirelogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InspirationHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".mytoolbar1"
+            android:exported="false" />
+        <activity android:name=".sports" />
+        <activity android:name=".politician" />
+        <activity android:name=".ScientistEn"/>
+
+        <activity android:name=".MathematiciansEn" />
+        <activity android:name=".FreedomFighterEng"/>
+        <activity android:name=".BusinessMenEng"/>
+        <activity android:name=".Author2En"/>
+
+        <activity android:name=".EntrepreneurEn"/>
+        <activity android:name=".soldierEn"/>
+        <activity android:name=".MotivatorEn"/>
+        <activity android:name=".ArtistEn"/>
+        <activity android:name=".MusicianEn"/>
+        <activity android:name=".ActorsEn"/>
+        <activity android:name=".SingerEn"/>
+        <activity android:name=".DancerEn"/>
+        <activity android:name=".PoetsEn"/>
+        <activity android:name=".ComedianEn"/>
+        <activity android:name=".OtherFamous"/>
+
+
+
+
+
+
+
+
+
+
+        <activity
+            android:name=".PeopleTypeEng"
+            android:exported="false" />
+        <activity
+            android:name=".PeopleTypeHin"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".UserDetails"
+            android:exported="false" />
+        <activity
+
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

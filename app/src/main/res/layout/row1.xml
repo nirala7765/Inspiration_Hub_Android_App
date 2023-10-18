@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cardbg"
+    android:id="@+id/srRelative"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="3dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cirImg1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_width="3dp"
+                android:layout_marginLeft="5dp"
+                app:civ_border_color="@color/black"
+                android:layout_gravity="center"
+                >
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txtName1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Person Name"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+
+                    />
+                <TextView
+                    android:id="@+id/txtprofession1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Profession"
+                    android:textStyle="bold"
+                    android:textColor="#08137C"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+
+                    />
+
+                />
+                <TextView
+                    android:id="@+id/txtrole1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Role"
+                    android:textStyle="bold"
+                    android:textColor="#676566"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
